@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+  
+}
+.picture {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    
+
+}
+#page1 {
+    background: linear-gradient(#60ebeb 0%,#27ae60 100%);
+    position: absolute;
+    height: 800px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    display: table;
+    opacity: 0.83;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+#page2 {
+    text-align: center;
+    padding: 50px;
+    margin-top: -50px;
+}
+ 
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+    
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    line-height: 1.3;
+    
+}
+
+.welcome {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    float: right;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    
+}
+
+.links:hover {
+    background-color:chartreuse;
+    1
+}
